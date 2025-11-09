@@ -14,7 +14,7 @@ logging.getLogger("telegram.ext").setLevel(logging.WARNING)
 load_dotenv()
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
-YOUR_CHAT_ID = os.getenv('CHAT_ID')
+YOUR_CHAT_ID = '977902779'
 RESPONSES_FILE = "responses.json"
 
 if not BOT_TOKEN or BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
